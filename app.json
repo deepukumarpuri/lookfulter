@@ -8,7 +8,7 @@
         "Mongo DB"
     ],
     "website": "https://github.com/AlbertEinsteinTG",
-    "repository": "https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2",
+    "repository": "https://github.com/deepukumarpuri/lookfulter",
     "success_url": "https://telegram.dog/CrazyBotsz",
     "env": {
         "APP_ID": {
@@ -20,7 +20,7 @@
             "value": ""
         },
         "BOT_TOKEN": {
-            "description": "Your Bot Token From @BotFather",
+            "description": "Your Bot Token From @BotFathEr",
             "value": ""
         },
         "DB_URI": {
