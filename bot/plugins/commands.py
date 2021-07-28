@@ -17,7 +17,7 @@ async def start(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
+               await update.reply_text("🤭 Sorry FRIEND, You are **B A N N E D 🤣🤣🤣**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
@@ -27,10 +27,10 @@ async def start(bot, update):
 Join on our channel to get movies ✅
 
 
-⚠️താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല ! ⚠️
+⚠️ Please Join My Updates Channel to use this Bot ! ⚠️
 
 
-ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅
+Due to Overload, Only Channel Subscribers can use the Bot! ✅
 
 ⬇️Channel link⬇️ </b>""",
                 reply_markup=InlineKeyboardMarkup([
@@ -57,7 +57,7 @@ Join on our channel to get movies ✅
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @MovieRosters</b>",
+                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @HINDIMOVIEWEBSERIESNETFLIX</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -65,7 +65,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/MovieRosters"
+                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/HINDIMOVIEWEBSERIESNETFLIX"
                                 )
                         ]
                        
@@ -78,14 +78,14 @@ Join on our channel to get movies ✅
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @MovieRosters</b>",
+                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @HINDIMOVIEWEBSERIESNETFLIX</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/MovieRosters"
+                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/HINDIMOVIEWEBSERIESNETFLIX"
                                 )
                         ]
                     ]
@@ -97,14 +97,14 @@ Join on our channel to get movies ✅
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @MovieRosters</b>",
+                caption = f"<code>{file_name}</code>\n \n<b>♻️Join with us : @HINDIMOVIEWEBSERIESNETFLIX</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/MovieRosters"
+                                    '🎖 Share Group 🎖', url="https://t.me/share/url?url=https://t.me/HINDIMOVIEWEBSERIESNETFLIX"
                                 )
                         ]
                     ]
@@ -117,10 +117,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('GROUP', url='https://t.me/MovieRosters'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/MovieRosters')
+        InlineKeyboardButton('GROUP', url='https://t.me/HINDIMOVIEWEBSERIESNETFLIX'),
+        InlineKeyboardButton('OWNER', url ='https://t.me/DKBOTZHELP')
     ],[
-        InlineKeyboardButton('Our Group 🛠', url='https://t.me/MovieRosters')
+        InlineKeyboardButton('Our Group 🛠', url='https://t.me/HINDIMOVIEWEBSERIESNETFLIX')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
